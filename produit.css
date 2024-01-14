@@ -1,0 +1,57 @@
+@import url('header.css');
+
+.produit_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.produit_container .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.produit_container .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.produit_container .card h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+}
+
+.button {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 1rem 4rem;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+}
+
+.button:hover {
+    background-color: #111;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+

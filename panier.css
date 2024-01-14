@@ -1,0 +1,81 @@
+@import url(header.css);
+
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+#cartContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+#cartContainer .cart-item {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 1rem;
+    margin-top: 1rem;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: white;
+
+}
+
+#cartContainer .cart-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+#cartContainer .cart-item p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+}
+
+button {
+    font-size: small;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 0.5rem 4rem;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+}   
+
+
+@media screen and (max-width: 1024px) {
+
+    #cartContainer .cart-item {
+        width: 50%;
+    }
+    
+    button{
+        font-size: 0.8rem;
+        padding: 0.5rem 2rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    #cartContainer .cart-item {
+        width: 50%;
+    }
+    
+    button{
+        font-size: 0.5rem;
+        padding: 0.5rem 2rem;
+    }
+}

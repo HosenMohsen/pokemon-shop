@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Page d'Accueil</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="index.html"> <img src="images/logo_pokemon.png" alt=""> </a>
+            <!-- Ajoutez cela à l'endroit approprié dans votre fichier HTML -->
+            <div class="recherche_header">
+                <!-- <label for="searchInput">Rechercher un Pokémon:</label> -->
+                <input type="text" id="searchInput" placeholder="Nom du Pokémon">
+                <button onclick="searchPokemon()">Rechercher</button>
+            </div>
+
+            
+            <ul class="nav_header">
+                <li> <a href="panier.html"> Panier</a> </li>
+            </ul>
+        </div>
+    </header>
+        <main>
+    
+            <div class="title_main">
+                <h1> NOS POKEMON LES PLUS VENDUS</h1>
+            </div>
+            
+            <div class="container" id="pokemonContainer">
+                
+              </div>
+        </main>
+        
+        <script src="script.js"></script>
+
+</body>
+</html>
